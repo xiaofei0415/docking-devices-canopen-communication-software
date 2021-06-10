@@ -1,11 +1,13 @@
 # my-arms
 # 运行方式
 1-	打开Ubuntu终端Terminal，运行：roscore；
+
 2-	连接好所有硬件，在新终端中输入：rosrun arms arm_cmd_sub_node；若硬件初始化启动成功，则底层通信和控制系统成功运行
 
 ![image](https://user-images.githubusercontent.com/80371110/121506071-fa749380-ca15-11eb-9981-fcbd6b3bf8d5.png)
 
 3-	在新终端中输入：roslaunch arm_vision ar_track_camera.launch 启动视觉引导功能；
+
 4-	在ROS rviz菜单栏中依次选择Panels->Add New Panel，打开TeleopPannel插件，可进行手动遥控；
 
  ![image](https://user-images.githubusercontent.com/80371110/121506025-f21c5880-ca15-11eb-97ce-b04ea18da9b4.png)
