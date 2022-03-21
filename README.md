@@ -1,4 +1,6 @@
 # my-arms
+# 注意事项
+针对elmo gold 系列驱动器，本软件使用该系列驱动器CANopen通信定义的特定字典对象，主要使用位置模式，其他硬件不适用，可作为参考。
 # 运行方式
 1-	打开Ubuntu终端Terminal，运行：roscore；
 
